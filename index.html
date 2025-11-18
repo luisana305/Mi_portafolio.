@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi proyecto personal en HTML</title>
+
+</head>
+<body>
+    <header id="ancla_inicio">
+        <h1> <strong>Luisana Julexsy Muñoz Oramas</strong></h1>
+        <p>La manera más efectiva de hacerlo, es hacerlo.</p>
+        <br/>
+        <img src="img/Lu.jpg"alt="Imagen de inicio"width="250px" height="275px"/>
+    </header>
+<nav>
+    <ul>
+        <li><a href="#sobremi">información personal</a></li>
+        <li><a href="#logros">logros</a></li>
+        <li><a href="#habilidades">habilidades</a></li>    
+        <li><a href="#audiodepresentacion">audio de presentación</a></li>
+        <li><a href="#Formulario">Formulario</a></li>
+    </ul>
+</nav>   
+<h2>Información personal</h2>
+<section id="sobremi">
+<p>
+    Holi, soy Luisana Julexsy Muñoz Oramas, nací el 15 de noviembre del 2005, tengo 20 años y vivo en Babahoyo.<strong>Soy una chica tranquila, tímida pero amigable</strong> . <em>Me gusta mucho escuchar música, cantar</em> y disfruto mucho cuando estoy sola porque me dedico a dibujar y pintar. <mark>Valoro mucho la sinceridad y la compañía de las personas que quiero.</mark>
+</p>
+</section>
+<h3>Logros</h3>
+<section id="logros">
+    <ul>
+        <li>En 2021 obtuve un diploma en un curso de Serigrafía.</li>
+        <li>En 2022 me gradué de Bachiller de la República.</li>
+        <li>En 2023 pude ingresar a la Universidad después de un intento fallido.</li>
+    </ul>
+</section>
+<section id="habilidades">
+    <table border="2">
+        <thead>
+            <tr><th>Habilidades</th><th>Debilidades</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Soy amigable</td>
+                <td>Soy tímida</td>    
+            </tr>
+            <tr>
+                <td>Soy creativa</td>
+                <td>Soy muy desorganizada</td>
+            </tr>
+            <tr>
+                <td>Me gusta cantar</td>
+                <td>No me gusta hablar en público</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">
+                    Estas son unas de mis habilidades y mis debilidades
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+<section id="audiodepresentación">
+    <h3>Audio de presentación personal</h3>
+    <audio src="Audio/Audio_de_presentación.mp3" controls></audio>
+</section>
+<section id="Formulario">
+    <article>
+        <header>
+            <h2>Formulario de contacto</h2>
+        </header>
+        <form>
+            <fieldset> 
+                <legend>Registro</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br/><br/>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br/><br/>
+                <label for="edad">Edad:</label> 
+                <input type="number" id="edad" name="edad" min="18"><br><br/>
+                <br/>
+                <label>Género:</label> 
+                <input type="radio" name="género" value="M">Masculino
+                <input type="radio" name="género" value="F">Femenino<br/><br/> 
+                <label>Intereses:</label>
+                <div id="pasatiempo">
+                    <input type="checkbox" name="deportes">Deportes
+                    <input type="checkbox" name="lectura">Lectura<br/><br/>
+                </div>
+                <textarea name="comentarios" rows="4" cols="30">Escribe aquí...
+                </textarea><br/><br/>
+                <input type="submit" value="Registrar">
+            </fieldset>
+        </form>
+    </article>
+</section>
+</main> 
+<a href="#ancla_inicio">Volver al inicio</a>
+<footer>
+    <p>&#169 2025 Luisana Julexsy Muñoz Oramas</p>
+</footer>
+</body>
+</html>
